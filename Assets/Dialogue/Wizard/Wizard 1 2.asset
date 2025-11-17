@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Wizard 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Well... Because I am not as great as it seems. *I have been stripped
+    of my magic!*
+  dialogueResponse1: Oh no, how does that happen?
+  dialogueResponse2: Well I liked the magic you did when you walked in!
+  dialogueResponse3: So you're just a guy in a whacky outfit?
+  nextDialogue1: {fileID: 11400000, guid: ae689772714e6e84a9f4af9a2721af09, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 2e5f1733cf3d01744b7ffc1d766d9874, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 1f85994f6f5e13d4b98649c500d1bebf, type: 2}

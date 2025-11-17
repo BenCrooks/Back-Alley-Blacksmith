@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 1
+  m_EditorClassIdentifier: 
+  dialogue: I pay thee hansomly upon me return. That dagger need do me work before
+    I pay thee in teeth?
+  dialogueResponse1: Are you just going to kill somebody?
+  dialogueResponse2: What are you going to use the dagger for exactly?
+  dialogueResponse3: I don't trust you to come back and pay me.
+  nextDialogue1: {fileID: 11400000, guid: aa5682850cd09dc4e8b6a638b2fc53c7, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: aa5682850cd09dc4e8b6a638b2fc53c7, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 6d3f84ea78377f946b9aaf4dd39cee25, type: 2}

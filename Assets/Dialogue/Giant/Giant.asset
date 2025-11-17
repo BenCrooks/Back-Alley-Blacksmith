@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Giant
+  m_EditorClassIdentifier: 
+  dialogue: '*FEE FI Fo*... hehehe, just kidding'
+  dialogueResponse1: You Gave me a fright!
+  dialogueResponse2: Isn't that like racist?
+  dialogueResponse3: ...What do you want?...
+  nextDialogue1: {fileID: 11400000, guid: ee7bcc2f3c0f9c14b93de2b2dc83b125, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 687c9ce752fcb2d4da1e20b39bb35d1f, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 9869515e9dd126e479b86faed37545d8, type: 2}

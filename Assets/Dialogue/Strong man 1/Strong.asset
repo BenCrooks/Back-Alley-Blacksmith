@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Strong
+  m_EditorClassIdentifier: 
+  dialogue: Hey I broke that copper sword, I need another...
+  dialogueResponse1: You broke it?
+  dialogueResponse2: Do you want another copper sword?
+  dialogueResponse3: Yeah I guess copper isn't too strong a metal.
+  nextDialogue1: {fileID: 11400000, guid: dff8178b2d0e61c4fadbf56885a22349, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: dff8178b2d0e61c4fadbf56885a22349, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: dff8178b2d0e61c4fadbf56885a22349, type: 2}

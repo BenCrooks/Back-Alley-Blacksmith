@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: barrel 3
+  m_EditorClassIdentifier: 
+  dialogue: '*Finally somebody who speaks at a normal volume!*'
+  dialogueResponse1: COULD YOU SPEAK UP A LITTLE?
+  dialogueResponse2: IF YOU CAN'T QUIETEN DOWN YOU WILL HAVE TO LEAVE!
+  dialogueResponse3: WHAT DO YOU NEED?!
+  nextDialogue1: {fileID: 11400000, guid: 81ab99017e16a6d4aa0104a95f7a59db, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: d3f8e52d0cc64f644ad6fd76a93f8dc0, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: cd485f5121e2c8f41aac1451f06eb96a, type: 2}

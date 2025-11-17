@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Naye I lost my dear blade bessy when I stabbed a man and he ran off.
+  dialogueResponse1: Well you don't seem very good at killing people.
+  dialogueResponse2: I'm sorry, where you and bessy close?
+  dialogueResponse3: Why didn't you chase hime?
+  nextDialogue1: {fileID: 11400000, guid: bed0650a5a90d4148ac0e71b983430f1, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: a08721282edd2d145b7026bba46028ae, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 8b09cdde506d56a45ad0b43fc3308586, type: 2}

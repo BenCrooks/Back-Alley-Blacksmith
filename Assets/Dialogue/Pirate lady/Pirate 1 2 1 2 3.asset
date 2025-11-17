@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 2 3
+  m_EditorClassIdentifier: 
+  dialogue: Why ye not trust me? A pir-ahh... A *man* is only as good as his word.
+  dialogueResponse1: Were you going to say pirate?
+  dialogueResponse2: Would you describe yourself as a good person then?
+  dialogueResponse3: Thats true, lets get you that dagger!
+  nextDialogue1: {fileID: 11400000, guid: 62c874d715f4954408d2e137a44d5c30, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: d23599b686cb81a4db2bf8a4a1b6c05c, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}

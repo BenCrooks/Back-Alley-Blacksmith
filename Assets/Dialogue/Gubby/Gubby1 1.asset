@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Gubby1 1
+  m_EditorClassIdentifier: 
+  dialogue: '*no bla bla*! Only stabby!'
+  dialogueResponse1: No bla bla, no stabby.
+  dialogueResponse2: Blablablabla
+  dialogueResponse3: ...
+  nextDialogue1: {fileID: 11400000, guid: 2bda5ed0c7a8cd44395afc4a6dbc5772, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 2bda5ed0c7a8cd44395afc4a6dbc5772, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 28f9deafa7716dd43ad5d34f36c98568, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: barrel 0 1
+  m_EditorClassIdentifier: 
+  dialogue: '*No, I''m going to break the barrel with the sword!*'
+  dialogueResponse1: OK ONE SWORD COMING UP!
+  dialogueResponse2: THAT DOESN'T SEEM SAFE!
+  dialogueResponse3: WHATS WRONG WITH BEING IN A BARREL?
+  nextDialogue1: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: a3cec85fa9dd64745a06ea1c18c928b4, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 4c0b61c44efa0074c832c71c4f588c16, type: 2}

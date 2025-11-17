@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 3 3
+  m_EditorClassIdentifier: 
+  dialogue: Thats between cupid and I, I am afraid. But could you help me here at
+    your smithing store?
+  dialogueResponse1: Uh, Sure, what do you need?
+  dialogueResponse2: I am still not sure you have come to the correct place...
+  dialogueResponse3: Whats a cupid?
+  nextDialogue1: {fileID: 11400000, guid: 2bdef04b0af91a04da469750928c0349, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 6596e5e926a8aba4f9b88c17e3176df0, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: e56e524e3fe2bc44f8c8ccc085fc5afe, type: 2}

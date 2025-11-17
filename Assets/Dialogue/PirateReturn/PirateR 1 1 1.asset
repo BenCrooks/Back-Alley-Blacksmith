@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 1 1 1
+  m_EditorClassIdentifier: 
+  dialogue: I *Did not* steal *nothing*! You take that back! You gave me this dagger!
+  dialogueResponse1: It's my job to sell daggers!
+  dialogueResponse2: Stealing the people who buy the daggers!
+  dialogueResponse3: Just give the dagger back!
+  nextDialogue1: {fileID: 11400000, guid: 6d6178526b8525b4abafb9b8ded1df0d, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 0fc8644502ed1f34db42b5a71cfbbb57, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 2067aac0bdff5894fbee8ae2dafa64e7, type: 2}

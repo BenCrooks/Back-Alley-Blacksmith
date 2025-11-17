@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 2
+  m_EditorClassIdentifier: 
+  dialogue: Yes! A simple term of endearment is all I meant. I know you are not a
+    knight or a lord!
+  dialogueResponse1: I'm not a dear either!
+  dialogueResponse2: I just meant I don't like being called sir.
+  dialogueResponse3: Wait how did you know I was not a knight or a lord?
+  nextDialogue1: {fileID: 11400000, guid: 2854f3931347e7d4aa59b2da2f53c500, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 2854f3931347e7d4aa59b2da2f53c500, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 8a2a9893252bbc74fa0f5706a4246e4e, type: 2}

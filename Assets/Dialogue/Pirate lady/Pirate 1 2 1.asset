@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1
+  m_EditorClassIdentifier: 
+  dialogue: Then I be *not* a pirate! I be a normal land faring folk!
+  dialogueResponse1: Shuuuurree... Are you going to pay?
+  dialogueResponse2: Then why do you have that accent?
+  dialogueResponse3: Sure, that seems legit!
+  nextDialogue1: {fileID: 11400000, guid: d35da5fd9919c8a49a3328dec1c857b2, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: ea9e800cf3c857740bfbeaa14c3c7872, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: f1ffdc44e3181ec48a73c74af9fb4067, type: 2}

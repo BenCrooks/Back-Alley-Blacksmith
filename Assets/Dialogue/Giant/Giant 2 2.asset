@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Giant 2 2
+  m_EditorClassIdentifier: 
+  dialogue: Well this esablishment doesn't exactly feel *upper class*
+  dialogueResponse1: THAT was rude!
+  dialogueResponse2: Why would you come here then?
+  dialogueResponse3: You would know whats up!
+  nextDialogue1: {fileID: 11400000, guid: 5ced73c4ff106e54ca082fab43e6e4e8, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 9869515e9dd126e479b86faed37545d8, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 79ec8c1003c5fa04f9fc0b3da77dedd8, type: 2}

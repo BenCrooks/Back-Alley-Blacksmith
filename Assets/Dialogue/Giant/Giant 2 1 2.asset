@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Giant 2 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Well I get to say *FEE FI FO FUM* those are just the rules! So are you
+    going to smith me something or are we just going to chat about cuss words?
+  dialogueResponse1: Umm, the cuss word thing.
+  dialogueResponse2: Yeah, smithing! Of course!
+  dialogueResponse3: FEE FI FO FUM
+  nextDialogue1: {fileID: 11400000, guid: 3222fd5d86e98c24aa8013e4b99600f4, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 9869515e9dd126e479b86faed37545d8, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 36b41765eb6cf3d47b62296b30559875, type: 2}

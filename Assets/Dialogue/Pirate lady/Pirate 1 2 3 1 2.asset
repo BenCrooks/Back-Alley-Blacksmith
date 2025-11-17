@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 3 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Aye, client of not being robbed! So hows about that dagger on loan.
+  dialogueResponse1: I will give it to you, but you must promise not to rob me!
+  dialogueResponse2: Yeah sure... on "loan"
+  dialogueResponse3: If I don't get my money, I'm sending a hitman after you!
+  nextDialogue1: {fileID: 11400000, guid: 8c0d9ed31f739444a9d328ea651a9ee7, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 0bf8d8f2429fda34da790955fd51c877, type: 2}

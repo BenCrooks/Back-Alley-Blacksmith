@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 3 1
+  m_EditorClassIdentifier: 
+  dialogue: Naye, think of it as client - pirate privilege.
+  dialogueResponse1: So you are a pirate!?
+  dialogueResponse2: Am.. I the client in this scenario?
+  dialogueResponse3: I think I will skip on the "privilege" then
+  nextDialogue1: {fileID: 11400000, guid: 01db4d1c546245442bf54d3a300a5642, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 0512a0b39bbd78443b6ae6606da44359, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 6d3f84ea78377f946b9aaf4dd39cee25, type: 2}

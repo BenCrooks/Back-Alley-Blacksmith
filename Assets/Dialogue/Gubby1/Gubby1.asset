@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Gubby1
+  m_EditorClassIdentifier: 
+  dialogue: Gubby back!
+  dialogueResponse1: I suppose you want a free knife?
+  dialogueResponse2: Nooo... Ugghhh Gubby!
+  dialogueResponse3: WHAT DO YOU WANT!?
+  nextDialogue1: {fileID: 11400000, guid: 7262fd94fd799f24db83cef5036be2c0, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 625f3502deec69a4683f97df21b97138, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 7262fd94fd799f24db83cef5036be2c0, type: 2}

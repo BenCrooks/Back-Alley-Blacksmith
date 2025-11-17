@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 2 1
+  m_EditorClassIdentifier: 
+  dialogue: Ye be bad at business. Buy if for 20 or I stab ye!
+  dialogueResponse1: No Please! Don't!
+  dialogueResponse2: I guess thats a good reason to buy it...
+  dialogueResponse3: No! Get outa here!
+  nextDialogue1: {fileID: 11400000, guid: 1cd4f3d45404e7442b2822ec6bb8902b, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 5407eb929d020fb45a6a40e675fdf9a2, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: b2eafe434c7ed3240a82223d3c217c89, type: 2}

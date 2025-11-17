@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Wizard 1
+  m_EditorClassIdentifier: 
+  dialogue: I am narrating. This is what you tell people if they ask about me...
+    He shoots sparkels from his fingers!
+  dialogueResponse1: I still don't understand
+  dialogueResponse2: Why don't you just do these things, you are clearly a wizard...
+  dialogueResponse3: What Sparks... What?!
+  nextDialogue1: {fileID: 11400000, guid: e455175e5806e9b4f91d727f5904ea3a, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 8e106ecce133d3342b3e46aca63e31de, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: e455175e5806e9b4f91d727f5904ea3a, type: 2}

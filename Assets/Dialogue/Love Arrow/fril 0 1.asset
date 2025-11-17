@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 0 1
+  m_EditorClassIdentifier: 
+  dialogue: I need an arrow for my love potion. To shoot my loved one as cupid does!
+  dialogueResponse1: That is the cutest thing I have ever heard!
+  dialogueResponse2: Is that safe?
+  dialogueResponse3: Why don't you just make her drink the potion?
+  nextDialogue1: {fileID: 11400000, guid: b70a1f34fcab5f347b217f7cd4feb4c2, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 945525d695b1c074f9d65c76a3f89133, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 3d936761cd022f841a4faa4858d93e2a, type: 2}

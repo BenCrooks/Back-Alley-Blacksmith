@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 2 3 1
+  m_EditorClassIdentifier: 
+  dialogue: I have smelled many knights! Thank you very much. I consider it a privaledge!
+  dialogueResponse1: Thats gross!
+  dialogueResponse2: And what did they smell like?
+  dialogueResponse3: ugh, Why are you here?
+  nextDialogue1: {fileID: 11400000, guid: 01fe82f95fe1ba041b08387584c61aa0, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 74841559a2246c64ca2c94f5e90c696e, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: c893393cc0aa262498d5c7d55a5b9f7d, type: 2}

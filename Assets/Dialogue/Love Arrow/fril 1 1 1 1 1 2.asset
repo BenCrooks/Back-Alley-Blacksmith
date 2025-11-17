@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 1 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Cupid?! The god of love! The most important being to our civilization!
+  dialogueResponse1: That seems like a little of an exaduation...
+  dialogueResponse2: Oh yeah, c-cu-bit love that guy!
+  dialogueResponse3: So you want some arrows?
+  nextDialogue1: {fileID: 11400000, guid: c38e43ce7164da444b316502b5627916, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: aba03b949f4c9254497852b0fe8ffcc7, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: b70a1f34fcab5f347b217f7cd4feb4c2, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Skinny 2 3
+  m_EditorClassIdentifier: 
+  dialogue: Oh! well lucky you. There are some dangerous characters out there!
+  dialogueResponse1: And who are you again?
+  dialogueResponse2: Aren't you supposed to protect us?
+  dialogueResponse3: How do I know you aren't a dangerous character?
+  nextDialogue1: {fileID: 11400000, guid: 69d34c90fd14ab64185b48f6d84b4252, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 746bd41ff6601ac4a80f8d3014d87008, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 69d34c90fd14ab64185b48f6d84b4252, type: 2}

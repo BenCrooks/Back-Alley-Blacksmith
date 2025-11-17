@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 1 2
+  m_EditorClassIdentifier: 
+  dialogue: I try ter kill me but eye got two peg legs. I couldn't catch em!
+  dialogueResponse1: I knew this would happen!
+  dialogueResponse2: Just give the knife back!
+  dialogueResponse3: Why did you want the dagger then?!
+  nextDialogue1: {fileID: 11400000, guid: 1aac100d29c34f8428e7afdf012b264a, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 2067aac0bdff5894fbee8ae2dafa64e7, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: b84a92c955201e14f89b7268559a24b8, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Wizard 4 1 1 1
+  m_EditorClassIdentifier: 
+  dialogue: Kinda... But it isn't *MY* magic! Ahh I am pathetic!
+  dialogueResponse1: Magic is magic, and you know how to use it!
+  dialogueResponse2: You are pretty pathetic...
+  dialogueResponse3: Whever you are, youre going to have some pretty sweet arrows!
+  nextDialogue1: {fileID: 11400000, guid: 6666061d2888f2648b799dd59e47a209, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: e6e8ea7ea2166d14c80221fc717ac907, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}

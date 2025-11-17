@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 2 3
+  m_EditorClassIdentifier: 
+  dialogue: Umm... Its because of the blacksmith outfit... Not the dirt, or accent,
+    or... smell.
+  dialogueResponse1: Well how would you know what a knight smelled?
+  dialogueResponse2: Oh so the outfit?
+  dialogueResponse3: You don't smell like you belong here!
+  nextDialogue1: {fileID: 11400000, guid: 4d8294569e82cf0479434e1598502759, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 90aad9fae47817744b0291a7821af666, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 407781b584c3d0f47ae5407ac0a1006b, type: 2}

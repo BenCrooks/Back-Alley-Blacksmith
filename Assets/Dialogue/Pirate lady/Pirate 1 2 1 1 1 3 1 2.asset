@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 1 1 3 1 2
+  m_EditorClassIdentifier: 
+  dialogue: What be the point then! Keep ye letters and give me a daggarrr!
+  dialogueResponse1: Ain't no way!
+  dialogueResponse2: Are you sure you arent a pirate?
+  dialogueResponse3: Sure, one dagger coming up!
+  nextDialogue1: {fileID: 11400000, guid: 6d3f84ea78377f946b9aaf4dd39cee25, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 8b09cdde506d56a45ad0b43fc3308586, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}

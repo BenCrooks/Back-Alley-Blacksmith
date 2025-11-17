@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 2 2
+  m_EditorClassIdentifier: 
+  dialogue: Support yer local businesses. I be selling this here fine dagger, it
+    be better than anything made in all these here lands.
+  dialogueResponse1: I made that!
+  dialogueResponse2: I am the local business. Get Outa here!
+  dialogueResponse3: Where is it from then?
+  nextDialogue1: {fileID: 11400000, guid: aa89df3b23813fb40938155a0ee79223, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: b2eafe434c7ed3240a82223d3c217c89, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: aa89df3b23813fb40938155a0ee79223, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 2 1 2
+  m_EditorClassIdentifier: 
+  dialogue: With a dagger. Be ye listening?!
+  dialogueResponse1: 'Umm, sure... '
+  dialogueResponse2: You just sound like a bad investment all round.
+  dialogueResponse3: Fine, I give in. I'll get you a dagger!
+  nextDialogue1: {fileID: 11400000, guid: 0bf8d8f2429fda34da790955fd51c877, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 6d3f84ea78377f946b9aaf4dd39cee25, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}

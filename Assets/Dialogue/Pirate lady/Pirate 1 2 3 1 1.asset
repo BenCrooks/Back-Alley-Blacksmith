@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 3 1 1
+  m_EditorClassIdentifier: 
+  dialogue: Nayyee, naahhheee... Ok I am a pirate... Don't sae anything though.
+  dialogueResponse1: Sorry I don't do business with pirates, and thieves!
+  dialogueResponse2: I appreciate your honesty!
+  dialogueResponse3: How can I trust a pirate?
+  nextDialogue1: {fileID: 11400000, guid: 6d3f84ea78377f946b9aaf4dd39cee25, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 0bf8d8f2429fda34da790955fd51c877, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 1cd7a59b13e89fa4ab7d161de6f49c40, type: 2}

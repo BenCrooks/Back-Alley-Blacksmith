@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: GubbyDad
+  m_EditorClassIdentifier: 
+  dialogue: Good day. Hello.
+  dialogueResponse1: Umm? Gubby?
+  dialogueResponse2: Wait? You can talk properly?
+  dialogueResponse3: G-Good day.
+  nextDialogue1: {fileID: 11400000, guid: c8c2fa16c02cd6749bc88c823d814c4a, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: bf03cfdce1381d64290ccaeb6b92518f, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 68cd4bcc738c57746be65f23dec4359c, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Skinny 1 1
+  m_EditorClassIdentifier: 
+  dialogue: I know... Magnificent... *Ahh* who am I kidding! I am *wasting away!*
+  dialogueResponse1: I wasn't going to say anything.
+  dialogueResponse2: You do look a little skinny...
+  dialogueResponse3: Sometimes losing some wieght is nice...
+  nextDialogue1: {fileID: 11400000, guid: 746bd41ff6601ac4a80f8d3014d87008, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 690d010d6290cb14d9647b4b8fc1f1a2, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 5cc3862b72d2b3447a0b4e28fb888c0a, type: 2}

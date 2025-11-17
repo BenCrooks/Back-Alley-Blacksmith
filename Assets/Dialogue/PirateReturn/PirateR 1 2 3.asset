@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 1 2 3
+  m_EditorClassIdentifier: 
+  dialogue: I like daggarrrs. What be wrong with that!?
+  dialogueResponse1: But youre selling it now?
+  dialogueResponse2: Nothing... Will I still get my cut?
+  dialogueResponse3: But thats my Dagger!
+  nextDialogue1: {fileID: 11400000, guid: 8792e32be5f2ab445a3268744e4044d3, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 0bbf8c0e0346a774591918ed911d3b5d, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 2067aac0bdff5894fbee8ae2dafa64e7, type: 2}

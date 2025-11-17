@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 2 3 1 2 1
+  m_EditorClassIdentifier: 
+  dialogue: Yes... burning steel... and burning hair...
+  dialogueResponse1: So are you buying a stinky sword or what?
+  dialogueResponse2: Well somebody has to do the hard work in this world!
+  dialogueResponse3: Psh! You stink! Get Out-a my shop!
+  nextDialogue1: {fileID: 11400000, guid: f242ed81f2669e74da8809c35327c4a6, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 7099ba997348b42429799f90ef8ada52, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: aae89dc7ff8739d4b8933cc238351eb1, type: 2}

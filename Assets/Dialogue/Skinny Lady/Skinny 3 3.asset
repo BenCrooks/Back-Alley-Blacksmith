@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Skinny 3 3
+  m_EditorClassIdentifier: 
+  dialogue: I'm Betty Brutus... heroin of Scum city...? I did the whole intro. You
+    have never heard of me? *Ahh* who am I kidding! I am *wasting away!*
+  dialogueResponse1: You do look a little skinny...
+  dialogueResponse2: Uhh, o-oh yeah I think you sound fammiliar?...
+  dialogueResponse3: It doesn't matter who you are. What do you need?
+  nextDialogue1: {fileID: 11400000, guid: 690d010d6290cb14d9647b4b8fc1f1a2, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 05153375bee287a4e8f79797fbbb2b3f, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: a3d976b40c47c3047b92a333b106033c, type: 2}

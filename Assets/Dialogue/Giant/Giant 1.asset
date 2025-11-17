@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Giant 1
+  m_EditorClassIdentifier: 
+  dialogue: Oh no my deepest apology.
+  dialogueResponse1: It's alright, what can I get you?
+  dialogueResponse2: Its not ok! Leave!
+  dialogueResponse3: ...What do you want?...
+  nextDialogue1: {fileID: 11400000, guid: 9869515e9dd126e479b86faed37545d8, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 3222fd5d86e98c24aa8013e4b99600f4, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 9869515e9dd126e479b86faed37545d8, type: 2}

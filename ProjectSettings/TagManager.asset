@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Slot
+  - Anvil
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Smoke
+  - Water
+  - UI
+  - Item
+  - OnlyColWithItem
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackgroundDark
+    uniqueID: 865430075
+    locked: 0
+  - name: BackgroundMed
+    uniqueID: 3572352125
+    locked: 0
+  - name: Background
+    uniqueID: 1292843355
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1163045371
+    locked: 0
+  - name: ForeGroundDark
+    uniqueID: 2376749505
+    locked: 0
+  - name: Smoke
+    uniqueID: 582988667
+    locked: 0
+  - name: Characters
+    uniqueID: 2646900959
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Dialogue
+    uniqueID: 565542827
+    locked: 0
+  - name: Cards
+    uniqueID: 1030169311
+    locked: 0

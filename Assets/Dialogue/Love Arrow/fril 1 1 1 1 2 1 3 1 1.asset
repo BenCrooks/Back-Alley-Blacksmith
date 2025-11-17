@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 1 2 1 3 1 1
+  m_EditorClassIdentifier: 
+  dialogue: Well clearly not at smithing!
+  dialogueResponse1: Just leave...
+  dialogueResponse2: Well now youre going to have to find another blacksmith!
+  dialogueResponse3: But in every other way?
+  nextDialogue1: {fileID: 11400000, guid: aae89dc7ff8739d4b8933cc238351eb1, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: aae89dc7ff8739d4b8933cc238351eb1, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 51bd1cea46a3c3b4cb3726e330981543, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 1 2 1 1
+  m_EditorClassIdentifier: 
+  dialogue: Oh some hub-bub of the moral implications of shooting somebody and drugging
+    them. Really, where has the romance gone?
+  dialogueResponse1: I will make you these arrows, for love!
+  dialogueResponse2: Hmm, I guess he has a point...
+  dialogueResponse3: Those damn castle-livers thinking they are better than us!
+  nextDialogue1: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 40bc01e54740dfb40ba4607acbfd513b, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 486aa1330694d734a8426870e45fdb0d, type: 2}

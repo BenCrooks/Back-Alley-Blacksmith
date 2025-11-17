@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 2 2
+  m_EditorClassIdentifier: 
+  dialogue: Nay, I have this eye patch because I be a pir-. I mean I be a regualaarr
+    folk
+  dialogueResponse1: Are you a pirate?
+  dialogueResponse2: I'm a regular man, I dont have an eye patch
+  dialogueResponse3: What?
+  nextDialogue1: {fileID: 11400000, guid: 26a40c181d1bb114cb0952e1bd40714c, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 01db4d1c546245442bf54d3a300a5642, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: f1ffdc44e3181ec48a73c74af9fb4067, type: 2}

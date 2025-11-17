@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Skinny 3
+  m_EditorClassIdentifier: 
+  dialogue: Do you not recognise me!?... Well I have perhaps lost a little wieght
+    these last couple months...
+  dialogueResponse1: Uhh, yeah I can see!
+  dialogueResponse2: Losing some wieght is nice...
+  dialogueResponse3: No I have no idea who you are.
+  nextDialogue1: {fileID: 11400000, guid: 690d010d6290cb14d9647b4b8fc1f1a2, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 5cc3862b72d2b3447a0b4e28fb888c0a, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 69d34c90fd14ab64185b48f6d84b4252, type: 2}

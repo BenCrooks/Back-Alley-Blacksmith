@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Pirate 1 2 1 1 1
+  m_EditorClassIdentifier: 
+  dialogue: It be pretty obvious. What be a dagger for?
+  dialogueResponse1: I'm not comfortable with you murdering!
+  dialogueResponse2: Yeah I guess thats what daggers are for...
+  dialogueResponse3: Opening letters?
+  nextDialogue1: {fileID: 11400000, guid: 1cd7a59b13e89fa4ab7d161de6f49c40, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 0bf8d8f2429fda34da790955fd51c877, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 6b19c01321dab56458772a499d752e85, type: 2}

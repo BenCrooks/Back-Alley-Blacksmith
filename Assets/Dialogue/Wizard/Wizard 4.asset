@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Wizard 4
+  m_EditorClassIdentifier: 
+  dialogue: I will *never* be able to do magic again! What would daddy say!
+  dialogueResponse1: Its ok! Being a regular dude isn't so bad.
+  dialogueResponse2: What would daddy say?
+  dialogueResponse3: Guy... Why are you here?
+  nextDialogue1: {fileID: 11400000, guid: 2f5fa26f5835726459dd369e01edf12a, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: a299530a625c3fc4c9fa2bf537667c39, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 6666061d2888f2648b799dd59e47a209, type: 2}

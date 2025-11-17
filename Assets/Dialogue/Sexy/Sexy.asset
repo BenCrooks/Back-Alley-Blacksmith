@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Sexy
+  m_EditorClassIdentifier: 
+  dialogue: Ughmmm, I'um lookn fur something...like...sexy...
+  dialogueResponse1: I don't think you are at the right shop...
+  dialogueResponse2: A sexy weapon?
+  dialogueResponse3: Please don't talk about me that way...
+  nextDialogue1: {fileID: 11400000, guid: dd0776c37d74cc4489ddceecef0711ff, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 87188659888cddf4e9980c53c52012f2, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 847244187a472cf40a3a4bcd5f7033b5, type: 2}

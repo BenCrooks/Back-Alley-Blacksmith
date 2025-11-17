@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Gubby
+  m_EditorClassIdentifier: 
+  dialogue: Gubby want *stabby*!
+  dialogueResponse1: What's a gubby?
+  dialogueResponse2: Ewww, youre drooling on the counter...
+  dialogueResponse3: Just give you a stabby? You wont pay?
+  nextDialogue1: {fileID: 11400000, guid: 94b7eb96946906946b5e58b0848eceeb, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: df3f11c3996b1874691a44a7c21a2f10, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: a816917df48a13a4e8985e71e4b94bc8, type: 2}

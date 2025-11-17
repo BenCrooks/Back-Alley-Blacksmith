@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: PirateR 1 1
+  m_EditorClassIdentifier: 
+  dialogue: What it look like I be doing? I be selling it to get ye yer money.
+  dialogueResponse1: But you're stealing my business!
+  dialogueResponse2: I thought you were going to murder with it.
+  dialogueResponse3: But I wont buy it!
+  nextDialogue1: {fileID: 11400000, guid: ec43dbfceaefde54fa96898551f5ef74, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 33cfe97000ff5564c8b65ffbcad320f9, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 62e27161adfc0a9499a599de44ba880b, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 1
+  m_EditorClassIdentifier: 
+  dialogue: That's where you are mistaken my dear friend! Becuase I have come to
+    your workshop in the name of love!
+  dialogueResponse1: We don't sell love!
+  dialogueResponse2: You want to stab the person you love?
+  dialogueResponse3: 'You want to stab your competition? '
+  nextDialogue1: {fileID: 11400000, guid: 2bdef04b0af91a04da469750928c0349, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 8caef825176b95d4fb411b85a98735dd, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 0c00ee9dfa63c0648871e65259ec28e0, type: 2}

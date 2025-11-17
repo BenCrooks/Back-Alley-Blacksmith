@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Skinny 4 2
+  m_EditorClassIdentifier: 
+  dialogue: Hmm, no... A dagger! Yes! I'll need to be the best though! Here, I have
+    some damascus steel, smelt it and make me a dagger!
+  dialogueResponse1: One damascus dagger coming up!
+  dialogueResponse2: We will have you out there fighting crime in no time!
+  dialogueResponse3: A dagger suits you!
+  nextDialogue1: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}

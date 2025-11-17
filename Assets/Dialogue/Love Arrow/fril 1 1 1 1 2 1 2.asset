@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: fril 1 1 1 1 2 1 2
+  m_EditorClassIdentifier: 
+  dialogue: Well I hope the *point* is a love arrow that you will sell me?
+  dialogueResponse1: Yeah sure!
+  dialogueResponse2: I literally make things for killing, why would I have a moral
+    dilemma about this?
+  dialogueResponse3: I have a moral dilemma about this.
+  nextDialogue1: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: 2c65b6928c291364487bf0da284d1223, type: 2}

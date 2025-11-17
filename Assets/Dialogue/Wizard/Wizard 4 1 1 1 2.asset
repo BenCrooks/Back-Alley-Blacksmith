@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98129dab4b131e04883b5cab0d600b68, type: 3}
+  m_Name: Wizard 4 1 1 1 2
+  m_EditorClassIdentifier: 
+  dialogue: '*I KNOW!* but here I am. Will you sell me some magic arrows?'
+  dialogueResponse1: Of course!
+  dialogueResponse2: I'm not wasting my time on some fake.
+  dialogueResponse3: Lets get you that magic!
+  nextDialogue1: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
+  nextDialogue2: {fileID: 11400000, guid: 4dc59c0665d4f474e9804c925b4795ab, type: 2}
+  nextdialogue3: {fileID: 11400000, guid: ee7d1257b63f60c459ddb1d08d4bf81e, type: 2}
