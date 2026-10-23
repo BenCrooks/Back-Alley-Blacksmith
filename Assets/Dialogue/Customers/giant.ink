@@ -191,6 +191,7 @@ Ugh! Its the only edible wood in the world... Well for *small* folk like yoursel
 + [Amazing! Thank you for the lesson!] -> so_a_knife_please
 
 = deal
+#wants: Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
 // No line here yet: the old setup left this customer's goal blank.
 #deal
 -> DONE

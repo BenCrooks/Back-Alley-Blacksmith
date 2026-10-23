@@ -5,21 +5,31 @@ using UnityEngine;
 public class CharacterManager : MonoBehaviour
 {
     [SerializeField] private DialogueManager _dialogue;
-    private List<GameObject> characters = new List<GameObject>();
-    private int currentCharacter = -1;
+    private Dictionary<string, GameObject> customers = new Dictionary<string, GameObject>();
+    private Dictionary<GameObject, Vector3> startPositions = new Dictionary<GameObject, Vector3>();
+    private GameObject currentCharacter;
     [SerializeField] private float timeBetweenCharacters = 6, walkInTime=3;
     [HideInInspector] public bool canGiveItems;
     public DialogueHolder CurrentCustomer {get; private set;}
 
     private void Start() {
         foreach(Transform child in transform){
-            characters.Add(child.gameObject);
+            DialogueHolder holder = child.GetComponent<DialogueHolder>();
+            if(holder == null || string.IsNullOrEmpty(holder.inkKnot)){
+                continue;
+            }
+            if(customers.ContainsKey(holder.inkKnot)){
+                Debug.LogWarning($"{child.name} and {customers[holder.inkKnot].name} both use ink knot '{holder.inkKnot}', so only {customers[holder.inkKnot].name} will come in.", child);
+                continue;
+            }
+            customers[holder.inkKnot] = child.gameObject;
+            startPositions[child.gameObject] = child.position;
         }
         StartCoroutine(WaitAndTriggerNextCharacter());
     }
 
     public void TriggerNextCharacterDialogue(){
-        CurrentCustomer = characters[currentCharacter].GetComponent<DialogueHolder>();
+        CurrentCustomer = currentCharacter.GetComponent<DialogueHolder>();
         canGiveItems = false;
         _dialogue.StartConversation(CurrentCustomer.inkKnot);
     }
@@ -29,49 +39,50 @@ public class CharacterManager : MonoBehaviour
     }
 
     private IEnumerator WaitAndTriggerNextCharacter(){
-        currentCharacter ++;
-        while(currentCharacter < characters.Count && !characters[currentCharacter].activeSelf){
-            currentCharacter ++;
+        //the ink "customers" list decides who comes in next
+        string knot = _dialogue.NextCustomerKnot();
+        while(knot != null && !customers.ContainsKey(knot)){
+            Debug.LogError($"No customer under CharacterManager has Ink Knot '{knot}', so they're skipped.", this);
+            knot = _dialogue.NextCustomerKnot();
         }
-        if(currentCharacter >= characters.Count){
+        if(knot == null){
             //no customers left
             yield break;
         }
         yield return new WaitForSeconds(timeBetweenCharacters);
         float timer=0;
-        GameObject character = characters[currentCharacter];
+        currentCharacter = customers[knot];
+        GameObject character = currentCharacter;
+        //customers can come back, so always walk in from where they started
+        character.transform.position = startPositions[character];
+        character.SetActive(true);
         Vector3 startPos = character.transform.position;
         Vector3 endPos = new Vector3(transform.position.x, startPos.y, startPos.z);
         while(timer < walkInTime){
             timer += Time.deltaTime;
-            characters[currentCharacter].transform.position = Vector3.Lerp(startPos, endPos, timer/walkInTime);
+            character.transform.position = Vector3.Lerp(startPos, endPos, timer/walkInTime);
             yield return null;
         }
         TriggerNextCharacterDialogue();
     }
-    public void MakeCharacterLeave(bool success){
-        StartCoroutine(WaitAndTriggerExit(success));
+    public void MakeCharacterLeave(){
+        StartCoroutine(WaitAndTriggerExit());
     }
 
-    private IEnumerator WaitAndTriggerExit(bool success){
+    private IEnumerator WaitAndTriggerExit(){
         yield return new WaitForSeconds(3);
         _dialogue.TurnOffDialogue();
-        if(success){
-            characters[currentCharacter].GetComponent<DialogueHolder>().onEndDialogueSuccessfully.Invoke();
-        }else{
-            characters[currentCharacter].GetComponent<DialogueHolder>().onEndDialogueFail.Invoke();
-        }
         float timer=0;
-        GameObject character = characters[currentCharacter];
+        GameObject character = currentCharacter;
         Vector3 endPos = character.transform.position + new Vector3(7f,0,0);
         Vector3 startPos = new Vector3(transform.position.x, endPos.y, endPos.z);
         while(timer < walkInTime){
             timer += Time.deltaTime;
-            characters[currentCharacter].transform.position = Vector3.Lerp(startPos, endPos, timer/walkInTime);
+            character.transform.position = Vector3.Lerp(startPos, endPos, timer/walkInTime);
             yield return null;
-        }    
+        }
         yield return null;
-        characters[currentCharacter].transform.position = endPos;
+        character.transform.position = endPos;
         TriggerNextDialogueCharacter();
     }
 

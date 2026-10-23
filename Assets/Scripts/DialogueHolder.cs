@@ -1,15 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class DialogueHolder : MonoBehaviour
 {
-    [Tooltip("Knot in Assets/Dialogue/BackAlleyBlacksmith.ink where this customer's conversation starts")]
+    [Tooltip("This customer's knot in Assets/Dialogue/BackAlleyBlacksmith.ink. The ink \"customers\" list decides when they come in and what they want.")]
     public string inkKnot;
-    public UnityEvent onEndDialogueSuccessfully, onEndDialogueFail;
-    public SmithingScriptableObj[] successObj;
-    public string successString="";
-    public bool pays = true;
-    public SmithingScriptableObj[] giveOnDialogueSuccess;
 }

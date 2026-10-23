@@ -75,6 +75,7 @@
 + [NO WAYS CRAZY LADY!] -> what_2
 
 = deal
+#wants: Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
 \*SWORD!* #deal
 -> DONE
 

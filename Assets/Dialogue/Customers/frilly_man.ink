@@ -2,7 +2,6 @@
 
 // ----------------------------------------------------------------------------
 // Scene object: FrillyMan
-// in the scene, a successful sale turns on FrillyMan (1).
 === frilly_man ===
 Good morrow good sir!
 + [Ah... The morrow is verry nice! yes...] -> oh_are_you_quite
@@ -328,6 +327,9 @@ Umm, no. I souldn't speak of gubby here!... Lets talk about my arrows! Yes My Lo
 + [Yeah I'm not sure I'm going to make you those...] -> what_why_please_do
 
 = deal
+#wants: Copper Arrows, Iron Arrows, Steel Arrows, Damascus Steel Arrows
+#must_be: Love
+#gives: Love Potion
 Some love arrows if you please! #deal
 -> DONE
 

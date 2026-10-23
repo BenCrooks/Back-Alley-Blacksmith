@@ -11,6 +11,7 @@ Hey I need your cheepest sword... Copper I think
     -> DONE
 
 = deal
+#wants: Copper Sword
 One Copper sword please #deal
 -> DONE
 
@@ -39,6 +40,7 @@ Yeah, I hit the ground on accident, and it just snapped... Could I get the secon
 + [Iron sword coming up!] -> deal
 
 = deal
+#wants: Iron Sword
 One Iron sword please #deal
 -> DONE
 
@@ -67,6 +69,7 @@ Yeah, It was an accident, I swung it and it hit a house...
     -> DONE
 
 = deal
+#wants: Steel Sword
 One Steel sword please #deal
 -> DONE
 
@@ -97,6 +100,7 @@ Ah! Bummer!
 -> DONE
 
 = deal
+#wants: Damascus Steel Sword
 One Damscus sword please #deal
 -> DONE
 

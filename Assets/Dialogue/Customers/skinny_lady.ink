@@ -99,6 +99,8 @@ Hmm, no... A dagger! Yes! I'll need to be the best though! Here, I have some dam
 + [A dagger suits you!] -> deal
 
 = deal
+#wants: Damascus Steel Dagger
+#gives: Damascus Steel Ingot
 A damascus dagger! Nothing but the best! #deal
 -> DONE
 

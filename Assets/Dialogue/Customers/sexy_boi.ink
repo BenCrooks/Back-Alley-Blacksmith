@@ -91,6 +91,7 @@ Ughhh... dont cry... thats so... uggghhh
 -> DONE
 
 = deal
+#wants: Damascus Steel Sword, Damascus Steel Dagger, Damascus Steel Arrows
 // No line here yet: the old setup left this customer's goal blank.
 #deal
 -> DONE

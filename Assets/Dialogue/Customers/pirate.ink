@@ -2,7 +2,6 @@
 
 // ----------------------------------------------------------------------------
 // Scene object: Pirate
-// in the scene, a successful sale turns on Pirate Return.
 === pirate ===
 Arrreee ye open?
 + [Duh...] -> aye_will_ye_give
@@ -202,6 +201,8 @@ We do not!
 + [Yeah I dont like it either.] -> so_ye_give_me
 
 = deal
+#wants: Copper Dagger, Iron Dagger, Steel Dagger, Damascus Steel Dagger
+#free
 // No line here yet: the old setup left this customer's goal blank.
 #deal
 -> DONE

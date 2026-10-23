@@ -119,6 +119,9 @@ Kinda... But it isn't *MY* magic! Ahh I am pathetic!
 + [Lets get you that magic!] -> deal
 
 = deal
+#wants: Copper Arrows, Iron Arrows, Steel Arrows, Damascus Steel Arrows
+#must_be: Magic
+#gives: Magic Powder
 One set of magic embewed arrow! #deal
 -> DONE
 

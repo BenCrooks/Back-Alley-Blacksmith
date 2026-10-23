@@ -1,8 +1,12 @@
 // Gubby (four visits) and Gubby's Dad
 
+// True once one of Gubby's visits ended with him getting his stabby. The customers
+// list uses it so Gubby stops coming back and his dad turns up instead.
+=== function gubby_has_stabby() ===
+~ return gubby_1.correct_item or gubby_2.correct_item or gubby_3.correct_item or gubby_4.correct_item
+
 // ----------------------------------------------------------------------------
-// Scene objects: GUBBY (1), BananaMan
-// GUBBY (1): in the scene, a successful sale turns on GUBBY Dad 1 and turns off GUBBY (2), GUBBY (3), GUBBY (4).
+// Scene object: GUBBY (1)
 === gubby_1 ===
 Gubby want *stabby*!
 + [What's a gubby?] -> me_gubby_gubby_need
@@ -58,6 +62,8 @@ Bla!
 -> DONE
 
 = deal
+#wants: Copper Dagger, Iron Dagger, Steel Dagger, Damascus Steel Dagger, Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
+#free
 Gubby want Stabby! #deal
 -> DONE
 
@@ -77,8 +83,7 @@ BLA! This no stabbey!
 //     [Are you going to Pay?]  [Not this time Gubby...]  [Yeah sure. One free stabby coming up!]
 
 // ----------------------------------------------------------------------------
-// Scene objects: GUBBY Dad 1, GUBBY Dad 2, GUBBY Dad 3, GUBBY Dad 4
-// GUBBY Dad 4: in the scene, a successful sale turns on GUBBY Dad 4.
+// Scene object: GUBBY Dad
 === gubby_dad ===
 Good day. Hello.
 + [Umm? Gubby?] -> oh_yes_gerald_gubby
@@ -143,7 +148,6 @@ I can not believe this, ahh! *GUBBY JR.* Where are you?! *Gubby?!*
 
 // ----------------------------------------------------------------------------
 // Scene object: GUBBY (2)
-// in the scene, a successful sale turns on GUBBY Dad 2 and turns off GUBBY (3), GUBBY (4).
 === gubby_2 ===
 Gubby back!
 + [I suppose you want a free knife?] -> gubby_want_stabby
@@ -183,6 +187,8 @@ Gubby go, but gubby *BE BACK*!
 -> DONE
 
 = deal
+#wants: Copper Dagger, Iron Dagger, Steel Dagger, Damascus Steel Dagger, Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
+#free
 Gubby want Stabby! #deal
 -> DONE
 
@@ -196,7 +202,6 @@ What this? Gubby want STABBY! No this!
 
 // ----------------------------------------------------------------------------
 // Scene object: GUBBY (3)
-// in the scene, a successful sale turns on GUBBY Dad 3 and turns off GUBBY (4).
 === gubby_3 ===
 Stabby?
 + [sure... I give up...] -> deal
@@ -214,6 +219,8 @@ Yes! You give gubby stabby!
 + [NEVER!] -> gubby_will_get_stabby
 
 = deal
+#wants: Copper Dagger, Iron Dagger, Steel Dagger, Damascus Steel Dagger, Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
+#free
 Gubby want Stabby! #deal
 -> DONE
 
@@ -262,6 +269,8 @@ BLA! This no stabbey!
 -> DONE
 
 = deal
+#wants: Copper Dagger, Iron Dagger, Steel Dagger, Damascus Steel Dagger, Copper Sword, Iron Sword, Steel Sword, Damascus Steel Sword
+#free
 Gubby want Stabby! #deal
 -> DONE
 

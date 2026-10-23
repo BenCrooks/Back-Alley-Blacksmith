@@ -9,7 +9,6 @@ public class GiveItemToCharacter : MonoBehaviour
     [SerializeField] private DialogueManager _dialogueManager;
     private GameObject objectOverWindow;
     public static GiveItemToCharacter Instance {get; private set;}
-    [SerializeField] private Typer textTyper;
     private AudioSource _audio;
     [SerializeField] private AudioClip successSound, failSound;
     private void Start() {
@@ -34,28 +33,24 @@ public class GiveItemToCharacter : MonoBehaviour
     }
 
     public void ReleaseItem(){
-        DialogueHolder customer = _characterManager.CurrentCustomer;
-        bool isCorrectItem = false;
-        foreach(SmithingScriptableObj smth in customer.successObj){
-            if(smth.noun == objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.noun){
-                isCorrectItem = true;
-            }
-        }
-        if(isCorrectItem){
-            if(customer.successString.Length == 0 || objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.adjective.Contains(customer.successString)){
+        //what they want comes from the tags on their ink deal line
+        DialogueManager.Deal deal = _dialogueManager.CurrentDeal;
+        SmithingScriptableObj given = objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo;
+        if(deal.Wants(given)){
+            if(deal.mustBe.Length == 0 || given.adjective.Contains(deal.mustBe)){
                 //correct item given
-                _characterManager.MakeCharacterLeave(true);
-                textTyper.typeOut(_dialogueManager.ReadReaction("correct_item"));
-                if(customer.pays){
-                    ShopManager.Instance.SellItem(objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.sellPrice);
+                _characterManager.MakeCharacterLeave();
+                _dialogueManager.ShowReaction("correct_item");
+                if(deal.pays){
+                    ShopManager.Instance.SellItem(given.sellPrice);
                 }
                 _audio.clip = successSound;
                 _audio.Play();
             }
         }else{
             //incorrect item given
-            _characterManager.MakeCharacterLeave(false);
-            textTyper.typeOut(_dialogueManager.ReadReaction("wrong_item"));
+            _characterManager.MakeCharacterLeave();
+            _dialogueManager.ShowReaction("wrong_item");
             _audio.clip = failSound;
             _audio.Play();
         }

@@ -1,8 +1,7 @@
 // Goop
 
 // ----------------------------------------------------------------------------
-// Scene objects: Goop, Goop (1)
-// Goop: in the scene, a visit without a sale turns on Goop (1).
+// Scene object: Goop
 === goop ===
 ...
 + [Can I help you?] -> silence
@@ -18,6 +17,7 @@
 + [Let me just pick something for you!] -> deal
 
 = deal
+#wants: Bones
 ? #deal
 -> DONE
 
