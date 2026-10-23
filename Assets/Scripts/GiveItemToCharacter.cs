@@ -34,18 +34,19 @@ public class GiveItemToCharacter : MonoBehaviour
     }
 
     public void ReleaseItem(){
+        DialogueHolder customer = _characterManager.CurrentCustomer;
         bool isCorrectItem = false;
-        foreach(SmithingScriptableObj smth in _characterManager.successOptions){
+        foreach(SmithingScriptableObj smth in customer.successObj){
             if(smth.noun == objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.noun){
                 isCorrectItem = true;
             }
         }
         if(isCorrectItem){
-            if(_characterManager.successAdjective.Length == 0 || objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.adjective.Contains(_characterManager.successAdjective)){
+            if(customer.successString.Length == 0 || objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.adjective.Contains(customer.successString)){
                 //correct item given
                 _characterManager.MakeCharacterLeave(true);
-                textTyper.typeOut(_characterManager.dialogueOnSuccess);
-                if(_characterManager.pays){
+                textTyper.typeOut(_dialogueManager.ReadReaction("correct_item"));
+                if(customer.pays){
                     ShopManager.Instance.SellItem(objectOverWindow.GetComponent<CardDisplay>().smithingObjInfo.sellPrice);
                 }
                 _audio.clip = successSound;
@@ -54,7 +55,7 @@ public class GiveItemToCharacter : MonoBehaviour
         }else{
             //incorrect item given
             _characterManager.MakeCharacterLeave(false);
-            textTyper.typeOut(_characterManager.dialogueOnFailure);
+            textTyper.typeOut(_dialogueManager.ReadReaction("wrong_item"));
             _audio.clip = failSound;
             _audio.Play();
         }

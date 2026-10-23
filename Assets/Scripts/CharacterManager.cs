@@ -8,13 +8,9 @@ public class CharacterManager : MonoBehaviour
     private List<GameObject> characters = new List<GameObject>();
     private int currentCharacter = -1;
     [SerializeField] private float timeBetweenCharacters = 6, walkInTime=3;
-    public string dialogueOnSuccess, dialogueOnFailure;
-    [HideInInspector] public SmithingScriptableObj[] successOptions, giveItems;
-    [HideInInspector] public string successAdjective;
-    [HideInInspector] public bool canGiveItems, pays;
-    [HideInInspector] public string overallGoal;
-    
-    
+    [HideInInspector] public bool canGiveItems;
+    public DialogueHolder CurrentCustomer {get; private set;}
+
     private void Start() {
         foreach(Transform child in transform){
             characters.Add(child.gameObject);
@@ -23,18 +19,9 @@ public class CharacterManager : MonoBehaviour
     }
 
     public void TriggerNextCharacterDialogue(){
-        DialogueHolder currentCharacterDialogue = characters[currentCharacter].GetComponent<DialogueHolder>();
-        dialogueOnSuccess = currentCharacterDialogue.dialogueOnSuccess;
-        dialogueOnFailure = currentCharacterDialogue.dialogueOnFailure;
-        _dialogue.currentDialogue = currentCharacterDialogue.dialogue;
-        successOptions = currentCharacterDialogue.successObj;
-        successAdjective = currentCharacterDialogue.successString;
-        overallGoal = currentCharacterDialogue.GoalSummary;
-        pays = currentCharacterDialogue.pays;
-        giveItems = currentCharacterDialogue.giveOnDialogueSuccess;
-        
-        _dialogue.ShowNextDialogue(-1);
+        CurrentCustomer = characters[currentCharacter].GetComponent<DialogueHolder>();
         canGiveItems = false;
+        _dialogue.StartConversation(CurrentCustomer.inkKnot);
     }
 
     public void TriggerNextDialogueCharacter(){
@@ -43,8 +30,12 @@ public class CharacterManager : MonoBehaviour
 
     private IEnumerator WaitAndTriggerNextCharacter(){
         currentCharacter ++;
-        while(!characters[currentCharacter].activeSelf){
+        while(currentCharacter < characters.Count && !characters[currentCharacter].activeSelf){
             currentCharacter ++;
+        }
+        if(currentCharacter >= characters.Count){
+            //no customers left
+            yield break;
         }
         yield return new WaitForSeconds(timeBetweenCharacters);
         float timer=0;

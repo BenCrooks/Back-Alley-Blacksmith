@@ -151,9 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 2d677b8f982352a4fa1b22267b01ff9d, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: gubby_dad
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -162,7 +160,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!4 &31624933
@@ -312,9 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 18d864f483bd3e3489369880d57d3421, type: 2}
-  dialogueOnSuccess: '*AH! WHAT?! YES!*'
-  dialogueOnFailure: '*EWW! WHAT?! NO!*'
+  inkKnot: barrel_hag
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -327,7 +322,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e39f264d277f9994291ab1852fc4699b, type: 2}
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: '*SWORD!*'
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &72048183
@@ -461,9 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 8e3bdf34445ad90478c75b32eabbe48d, type: 2}
-  dialogueOnSuccess: Marvelous! Those scum wont stand a chance!
-  dialogueOnFailure: No! Not this. I couldn't possibly use THIS to fight!
+  inkKnot: skinny_lady
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -473,7 +465,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: bf56167dff5068c47b86f2055f79146a, type: 2}
   successString: 
-  GoalSummary: A damascus dagger! Nothing but the best!
   pays: 1
   giveOnDialogueSuccess:
   - {fileID: 11400000, guid: 9b72d1b160f5ddd418cc5ba0f29ec2b8, type: 2}
@@ -775,9 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 2d677b8f982352a4fa1b22267b01ff9d, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: gubby_dad
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -786,7 +775,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!4 &133088120
@@ -6611,9 +6599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 78eef60be7f1e714eb7dda0cb0b115a7, type: 2}
-  dialogueOnSuccess: wa! WOO! Ya! Gubby!
-  dialogueOnFailure: BLA! This no stabbey!
+  inkKnot: gubby_3
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -6654,7 +6640,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b2ee070989559184786afffd707b398b, type: 2}
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: Gubby want Stabby!
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!4 &256567990
@@ -14767,9 +14752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: d6bf591a3c54e584e823cadf1b6bcc8c, type: 2}
-  dialogueOnSuccess: wa! WOO! Ya! Gubby!
-  dialogueOnFailure: 
+  inkKnot: gubby_1
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -14778,7 +14761,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &519420028
@@ -15489,9 +15471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 5cd0eeca9733eee4db181289d95ac695, type: 2}
-  dialogueOnSuccess: Perfect, I can finally eat again!
-  dialogueOnFailure: Is this a tool for ants? I can't use this!
+  inkKnot: giant
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -15504,7 +15484,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   - {fileID: 11400000, guid: 85e12e443ad039d42ba76937e646ac32, type: 2}
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &565378924
@@ -16248,9 +16227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: d253b05c06fdcf94694ab38405be56ea, type: 2}
-  dialogueOnSuccess: Ohh yeah, looks good.
-  dialogueOnFailure: Uhh, this isnt a Steel sword...
+  inkKnot: strong_man_3
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -16260,7 +16237,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: One Steel sword please
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1001 &591339790
@@ -23351,9 +23327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: d6bf591a3c54e584e823cadf1b6bcc8c, type: 2}
-  dialogueOnSuccess: wa! WOO! Ya! Gubby!
-  dialogueOnFailure: BLA! This no stabbey!
+  inkKnot: gubby_1
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -23418,7 +23392,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b2ee070989559184786afffd707b398b, type: 2}
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: Gubby want Stabby!
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!1 &689026608
@@ -25541,9 +25514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: ea39ae90dedc140409b36651887344df, type: 2}
-  dialogueOnSuccess: Going to SMACK some stuff with this!
-  dialogueOnFailure: Uhh, this isnt a iron sword...
+  inkKnot: strong_man_2
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -25553,7 +25524,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: e39f264d277f9994291ab1852fc4699b, type: 2}
   successString: 
-  GoalSummary: One Iron sword please
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &823746912
@@ -26157,9 +26127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 52806785e1e9de74b8a6ed32670dfa44, type: 2}
-  dialogueOnSuccess: YES! Just like in that Anime!
-  dialogueOnFailure: Uhh, this isnt a Damascus sword...
+  inkKnot: strong_man_4
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -26169,7 +26137,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: 85e12e443ad039d42ba76937e646ac32, type: 2}
   successString: 
-  GoalSummary: One Damscus sword please
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &868650585
@@ -26217,9 +26184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: bc0b3b711ca98e44596fd1f984371dc8, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: frilly_man_return
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -26228,7 +26193,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &873779001
@@ -26359,9 +26323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 4215a1e32d0ee594abc48e1969cb09c0, type: 2}
-  dialogueOnSuccess: Sweet, Can't wait to hit some things!
-  dialogueOnFailure: Uhh, this isnt a copper sword...
+  inkKnot: strong_man_1
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -26371,7 +26333,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: 9105430b9135df146bd8190d149cac2f, type: 2}
   successString: 
-  GoalSummary: One Copper sword please
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &878603181
@@ -31970,9 +31931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 5cb22472d039e11448633446eb1c1d1d, type: 2}
-  dialogueOnSuccess: Ye arreee the best!
-  dialogueOnFailure: Arree you crazy? I cant use this!
+  inkKnot: pirate
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -31997,7 +31956,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1c91c50e72950bc40a0b75932ec54aa3, type: 2}
   - {fileID: 11400000, guid: b2ee070989559184786afffd707b398b, type: 2}
   successString: 
-  GoalSummary: 
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!1 &957383657
@@ -32132,9 +32090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 6bed4a8e727a1c94cb922cce2c643a5b, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: pirate_return
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -32143,7 +32099,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &970587171
@@ -39976,9 +39931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 2d677b8f982352a4fa1b22267b01ff9d, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: gubby_dad
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -39999,7 +39952,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &1183481495
@@ -40535,9 +40487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 4ab454e389d3b8d43b8bc1caf880ec59, type: 2}
-  dialogueOnSuccess: Yes! I am magic again!
-  dialogueOnFailure: 'This isn''t what I wanted! '
+  inkKnot: wizard
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -40550,7 +40500,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64048407d874e644e960ea747dbb1c31, type: 2}
   - {fileID: 11400000, guid: 100add93fe16673419ebc7b067938412, type: 2}
   successString: Magic
-  GoalSummary: One set of magic embewed arrow!
   pays: 1
   giveOnDialogueSuccess:
   - {fileID: 11400000, guid: 548a7a30bd6fdbd4ca7cffa370abe66d, type: 2}
@@ -43055,9 +43004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 97ce47e59355d2e4a98a2d21656902b8, type: 2}
-  dialogueOnSuccess: AH! AHHH! YES! GUBBY YES! STABBY!
-  dialogueOnFailure: BLA! This no stabbey!
+  inkKnot: gubby_4
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -43074,7 +43021,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b2ee070989559184786afffd707b398b, type: 2}
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: Gubby want Stabby!
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!4 &1369382762
@@ -43138,9 +43084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 78325d4c9e19f4747b30754336ce99ce, type: 2}
-  dialogueOnSuccess: ...! <3
-  dialogueOnFailure: . . . :( . . .
+  inkKnot: goop
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -43150,7 +43094,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: bfb2ed3ecbc9e3e4cae6139aec93c5f7, type: 2}
   successString: 
-  GoalSummary: '?'
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &1399621362
@@ -48281,9 +48224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 78325d4c9e19f4747b30754336ce99ce, type: 2}
-  dialogueOnSuccess: ...! <3
-  dialogueOnFailure: . . . :( . . .
+  inkKnot: goop
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -48305,7 +48246,6 @@ MonoBehaviour:
   successObj:
   - {fileID: 11400000, guid: bfb2ed3ecbc9e3e4cae6139aec93c5f7, type: 2}
   successString: 
-  GoalSummary: '?'
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &1450409142
@@ -54764,9 +54704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: a10be670f1d682b4b8c1fde94544d752, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: wide_lady
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -54775,7 +54713,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!1 &1581741341
@@ -61498,9 +61435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 9d508a6711680e1418f4356a12470f5d, type: 2}
-  dialogueOnSuccess: Uggghhh, yeeeeaauugghhh!
-  dialogueOnFailure: Uggghhh, Nooouugghhh!
+  inkKnot: sexy_boi
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -61512,7 +61447,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bf56167dff5068c47b86f2055f79146a, type: 2}
   - {fileID: 11400000, guid: 100add93fe16673419ebc7b067938412, type: 2}
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!1 &1732404486
@@ -61627,9 +61561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 2d677b8f982352a4fa1b22267b01ff9d, type: 2}
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
+  inkKnot: gubby_dad
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls: []
@@ -61638,7 +61570,6 @@ MonoBehaviour:
       m_Calls: []
   successObj: []
   successString: 
-  GoalSummary: 
   pays: 1
   giveOnDialogueSuccess: []
 --- !u!4 &1748016039
@@ -63254,6 +63185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f77e248d5c57b084990552adba8fa75e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inkStory: {fileID: 0}
   _characters: {fileID: 2123341982}
   talking:
   - {fileID: 79405897}
@@ -63263,7 +63195,6 @@ MonoBehaviour:
   - {fileID: 375032042}
   - {fileID: 454715770}
   - {fileID: 1470721773}
-  currentDialogue: {fileID: 11400000, guid: d6bf591a3c54e584e823cadf1b6bcc8c, type: 2}
   emptyItemCard: {fileID: 4788094504357160694, guid: 275683b5c7132c24ea011899a0fe1fa9, type: 3}
   cardSpawnPoint: {fileID: 1482763463}
 --- !u!1 &1916569779
@@ -64284,9 +64215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 8690f36bd3bb0714f80527c99ca4c58b, type: 2}
-  dialogueOnSuccess: Superb, I will return with news of my feats!
-  dialogueOnFailure: Oh no, this will not do! This is not made with Love!
+  inkKnot: frilly_man
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -64311,7 +64240,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64048407d874e644e960ea747dbb1c31, type: 2}
   - {fileID: 11400000, guid: 100add93fe16673419ebc7b067938412, type: 2}
   successString: Love
-  GoalSummary: Some love arrows if you please!
   pays: 1
   giveOnDialogueSuccess:
   - {fileID: 11400000, guid: 702dfe3602d01c24588d8deaa271e047, type: 2}
@@ -65664,9 +65592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69aaeac2c486d5548b0d8af6b79d1935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: d0fa8127fa949814f86af7fc9abf0b7a, type: 2}
-  dialogueOnSuccess: YES! STABBY!
-  dialogueOnFailure: What this? Gubby want STABBY! No this!
+  inkKnot: gubby_2
   onEndDialogueSuccessfully:
     m_PersistentCalls:
       m_Calls:
@@ -65719,7 +65645,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b2ee070989559184786afffd707b398b, type: 2}
   - {fileID: 11400000, guid: d621873a50f166d4495c37abcd9fbc92, type: 2}
   successString: 
-  GoalSummary: Gubby want Stabby!
   pays: 0
   giveOnDialogueSuccess: []
 --- !u!4 &2100332408
@@ -66469,14 +66394,7 @@ MonoBehaviour:
   _dialogue: {fileID: 1915277743}
   timeBetweenCharacters: 4
   walkInTime: 3
-  dialogueOnSuccess: 
-  dialogueOnFailure: 
-  successOptions: []
-  giveItems: []
-  successAdjective: 
   canGiveItems: 0
-  pays: 0
-  overallGoal: 
 --- !u!1 &2125056029
 GameObject:
   m_ObjectHideFlags: 0
